@@ -59,16 +59,16 @@ atom-text-editor {
   }
 }
 
-atom-text-editor .search-results .marker .region {
+atom-text-editor .search-results .syntax-marker .region {
   background-color: @black;
   border: 1px solid @syntax-result-marker-color;
 }
 
-atom-text-editor .search-results .marker.current-result .region {
+atom-text-editor .search-results .syntax-marker.current-result .region {
   border: 12px solid @syntax-result-marker-color-selected;
 }
 
-.comment {
+.syntax-comment {
   color: @green;
 }
 
@@ -83,7 +83,7 @@ atom-text-editor .search-results .marker.current-result .region {
 //   }
 // }
 
-.keyword {
+.syntax-keyword {
   color: @blue;
 
   // &.control {
